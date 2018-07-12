@@ -8,7 +8,7 @@
     "pre": "webpack  --config ./build/webpack.config.js --mode production",
     "build": "node build/build.js",
     "build:copy": "node build/build.copy.js",
-    "test": "karma start build/karma.conf.js"
+    "test": "node build/build.copy.js && karma start build/karma.conf.js"
   },
   "repository": {
     "type": "git",
