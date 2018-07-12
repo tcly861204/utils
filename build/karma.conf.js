@@ -40,7 +40,7 @@ module.exports = function(config) {
     // reporter options
     mochaReporter: {
       colors: {
-        success: 'blue',
+        success: 'green',
         info: 'bgGreen',
         warning: 'cyan',
         error: 'bgRed'
